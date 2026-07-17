@@ -1,5 +1,7 @@
 arr1 = [1, 3, 6, 9, 11]
 
+
+
 def max_profit(arr):
     profits = []
     max_profit = 0

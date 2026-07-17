@@ -1,0 +1,3 @@
+hashing mainly consists of hashing table for storing the particular range of values
+it has to generate values and keys from keys ranging form 0 to n-1 elements 
+it is used to store and retirieve data quickly normally O(1) time complexity 

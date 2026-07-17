@@ -21,3 +21,4 @@ def arrange(arr):
 
 arr1 = [9, 4, -2, -1, 5, 0, -5, -3, 2]
 print(arrange(arr=arr1))
+f

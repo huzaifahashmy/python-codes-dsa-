@@ -1,0 +1,42 @@
+class Node:
+    def __init__(self , data):
+        self.item = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+    
+    def constructor(self , numbers :list[int]):
+
+
+        for nums in numbers:
+            new_node = Node(nums)
+            if self.head is None:
+                self.head = new_node
+                current = new_node
+
+            
+            else:
+                current.next = new_node
+                current = new_node
+
+
+
+    def display(self):
+        temp = self.head
+        while temp:
+            print(temp.item , end= " ->")
+            temp = temp.next
+        print("None")
+
+
+numbers = [1,2,3,4,5,6,7,8]
+
+# now , ginven only the head of the linked list , h
+
+
+
+ll = LinkedList()
+ll.constructor(numbers=numbers)
+ll.display()
